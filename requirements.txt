@@ -1,0 +1,8 @@
+beautifulsoup4
+dask[complete]
+openpyxl
+pip  
+pytest    
+requests 
+urllib3            
+XlsxWriter   
