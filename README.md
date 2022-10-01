@@ -4,7 +4,7 @@
 ## File Structure
 
 **- ETL_code**
-- data : Contains the dataset on which the transformation needs to be applied
+- data : 
     - dataset : contains the dataset formed by scraped data which is then consumed in a DASK API 
     - excel_data : contains the .xlsx file which is scraped from the given web link
     - html_data : all the html files stored after scraping
@@ -42,9 +42,9 @@ conda activate <env_name>
 ```
 ### 4. Now, to initiate the code run the main file within virtual env
 
+## Building and Running Docker Container:
 #### _Using containerisation it becomes very easy to deploy applications on cloud in production. Since I have used DASK for the transformations, it can leverage the distributed cluster to process large amount of data._ 
 
-## Building and Running Docker Container:
 Please use the following steps to Build and Run the Docker container.
 ### Build the Docker container(Please make sure Docker is installed in your system):
 After pulling this repository to your system , navigate to the location where the repository is stored.
