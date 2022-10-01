@@ -1,0 +1,12 @@
+2022-10-01 17:35:01,590 [INFO] directory data/excel_data already exists
+2022-10-01 17:35:01,590 [INFO] directory data/html_data already exists
+2022-10-01 17:35:01,590 [INFO] starting the process..
+2022-10-01 17:35:01,590 [INFO] Starting the process to scrape date from the following url https://www.scrapethissite.com/pages/forms and cretion of the Excel-sheet
+2022-10-01 17:35:05,922 [INFO] Creating the ZIP file from the scraped HTML files
+2022-10-01 17:35:05,924 [INFO] directory data/zip_data already exists
+2022-10-01 17:35:05,928 [INFO] Creating the NHL Stats 1990-2011 worksheet in scraped_excel_data.xlsx
+2022-10-01 17:35:05,986 [INFO] Creating a dataset from the scraped data to be consumed in DASK fro the transformation process
+2022-10-01 17:35:06,064 [INFO] directory data/dataset already exists
+2022-10-01 17:35:06,073 [INFO] Starting the transformation process to consume the dataset in DASK and do a groupby to get the winners and losers by year
+2022-10-01 17:35:06,635 [INFO] The process completed successfully, the excel dataset can be found in data/excel_data/scraped_excel_data.xlsx
+2022-10-01 17:35:06,636 [INFO] Total Execution time seconds: 1.111754
