@@ -32,14 +32,15 @@ You can use any of the tools like venv, conda to create virtual env to store you
 ```
 conda create -n <env_name> python=3.8
 ```
-### 2. Installing requirements.txt packages 
-```
-pip install -r requirements.txt
-```
-### 3. Activating Virtual Env
+### 2. Activating Virtual Env
 ```
 conda activate <env_name>
 ```
+### 3. Installing requirements.txt packages 
+```
+pip install -r requirements.txt
+```
+
 ### 4. Now, to initiate the code run the main file within virtual env
 
 ## Building and Running Docker Container:
